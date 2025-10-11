@@ -36,3 +36,6 @@ Players will explore fractured realms, uncover secrets, and harness the power of
   - [Fabric API](https://modrinth.com/mod/fabric-api)
 
 ---
+
+## 📢 Updates
+Join the [Riftwalkers Discord](https://discord.gg/yPaVxpMwye) for updates on the mod.
