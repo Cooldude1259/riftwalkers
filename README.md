@@ -21,9 +21,9 @@ Players will explore fractured realms, uncover secrets, and harness the power of
 
 | Version | Stage | Notes |
 |----------|--------|-------|
-| 0.1.0 | 🔧 In Development | Core dimension framework, rift base worldgen |
-| 0.2.0 | 🌀 Coming Soon | Rift portal mechanics, entity behavior |
-| 0.3.0 | ⚔️ Planned | Faction systems, events, and story integration |
+| 0.0.1 | 🔧 In Development | Base Structure |
+| 0.0.2 | 🌀 Coming Soon | Base dimensions |
+| 0.0.3 | ⚔️ Planned | Custom World Generation |
 
 ---
 
@@ -36,6 +36,3 @@ Players will explore fractured realms, uncover secrets, and harness the power of
   - [Fabric API](https://modrinth.com/mod/fabric-api)
 
 ---
-
-## 📁 Project Structure
-
