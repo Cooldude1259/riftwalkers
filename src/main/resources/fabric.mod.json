@@ -16,7 +16,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.lucas.riftwalkers.RiftWalkers"
+          "com.lucas.riftwalkers.RiftWalkersMod"
 		],
 		"client": [
 			"com.lucas.riftwalkers.RiftWalkersClient"
