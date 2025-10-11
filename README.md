@@ -5,6 +5,16 @@ Players will explore fractured realms, uncover secrets, and harness the power of
 
 ---
 
+## 🤔 Reminder For Future Updates
+
+In future updates, **Rift Walkers** will be protected by a key as well as the Creative Commons License. This key will only have to exist if I deem that there are
+too many duplicate servers. In updates that will be closer, automatic updates will be released and will check once every 2 months or so for updates to ensure the
+best security for the servers.
+
+This mod is also for **Clients** to help with rendering custom mobs, blocks, items, and events. We will keep you updated when new features arise.
+
+---
+
 ## ✨ Features
 
 - 🌍 **Custom Dimensions** – Explore brand-new rift worlds beyond the Overworld.  
