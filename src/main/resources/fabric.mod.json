@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "riftwalkers",
+	"version": "${version}",
+	"name": "Riftwalkers",
+	"description": "A magic journey through time and universes, as you work with other players.",
+	"authors": [
+		"Cooldude1259"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/riftwalkers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.cooldude1259.riftwalkers.Riftwalkers"
+		],
+		"fabric-datagen": [
+			"com.cooldude1259.riftwalkers.RiftwalkersDataGenerator"
+		]
+	},
+	"mixins": [
+		"riftwalkers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.1.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
