@@ -1,5 +1,6 @@
 package com.cooldude1259.riftwalkers;
 
+import com.cooldude1259.riftwalkers.worldgen.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.resources.Identifier;
@@ -14,6 +15,8 @@ public class Riftwalkers implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing riftwalkers...");
+
+		ModWorldGeneration.generateModWorldGen();
 	}
 
 	public static Identifier id(String path) {
