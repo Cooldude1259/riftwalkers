@@ -1,10 +1,10 @@
 {
-  "ambient_light": 1.0,
+  "ambient_light": 1,
   "attributes": {
     "minecraft:audio/ambient_sounds": {
       "mood": {
         "block_search_extent": 8,
-        "offset": 2.0,
+        "offset": 2,
         "sound": "minecraft:ambient.cave",
         "tick_delay": 6000
       }
@@ -24,19 +24,20 @@
     "minecraft:gameplay/bed_rule": {
       "can_set_spawn": "always",
       "can_sleep": "when_dark",
+      "explodes": false,
       "error_message": {
         "translate": "block.minecraft.bed.no_sleep"
       }
     },
     "minecraft:gameplay/nether_portal_spawns_piglin": true,
     "minecraft:gameplay/respawn_anchor_works": false,
-    "minecraft:visual/ambient_light_color": "#c0fe5e",
+    "minecraft:visual/ambient_light_color": "#ad0000",
     "minecraft:visual/cloud_color": "#00000000",
-    "minecraft:visual/cloud_height": 123.0,
-    "minecraft:visual/fog_color": "#a1f147",
-    "minecraft:visual/sky_color": "#67baff"
+    "minecraft:visual/cloud_height": 123,
+    "minecraft:visual/fog_color": "#b3525d",
+    "minecraft:visual/sky_color": "#b232f5"
   },
-  "coordinate_scale": 1.0,
+  "coordinate_scale": 1,
   "default_clock": "minecraft:overworld",
   "has_ceiling": false,
   "has_ender_dragon_fight": false,

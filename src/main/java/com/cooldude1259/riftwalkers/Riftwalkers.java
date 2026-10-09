@@ -1,5 +1,6 @@
 package com.cooldude1259.riftwalkers;
 
+import com.cooldude1259.riftwalkers.block.ModBlocks;
 import com.cooldude1259.riftwalkers.worldgen.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
@@ -15,7 +16,7 @@ public class Riftwalkers implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info("Initializing riftwalkers...");
-
+		ModBlocks.registerModBlocks();
 		ModWorldGeneration.generateModWorldGen();
 	}
 
