@@ -1,8 +1,10 @@
 package com.cooldude1259.riftwalkers.datagen;
 
+import com.cooldude1259.riftwalkers.block.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataGenerator;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricDynamicRegistryProvider;
+import net.minecraft.client.data.models.BlockModelGenerators;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 

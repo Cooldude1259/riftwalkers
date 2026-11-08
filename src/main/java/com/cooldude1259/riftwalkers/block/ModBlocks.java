@@ -24,6 +24,10 @@ public class ModBlocks {
     public static final Block KAUPEN_PORTAL = registerBlock("kaupen_portal",
             properties -> new KaupenPortalBlock(properties.strength(3f)));
 
+    // Reference Artwork Blocks
+    public static final Block PORTAL_A = registerBlock("portal_a",
+            properties -> new Block(properties.strength(3f)));
+
     public static ResourceKey<Block> getRK(Block block) {
         return BuiltInRegistries.BLOCK.getResourceKey(block).get();
     }

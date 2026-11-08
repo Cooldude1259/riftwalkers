@@ -1,5 +1,6 @@
 package com.cooldude1259.riftwalkers;
 
+import com.cooldude1259.riftwalkers.datagen.ModModelProvider;
 import com.cooldude1259.riftwalkers.datagen.ModRegistryDataProvider;
 import com.cooldude1259.riftwalkers.worldgen.ModConfiguredFeatures;
 import com.cooldude1259.riftwalkers.worldgen.ModPlacedFeatures;
@@ -15,6 +16,7 @@ public class RiftwalkersDataGenerator implements DataGeneratorEntrypoint {
 		var pack = fabricDataGenerator.createPack();
 
 		pack.addProvider(ModRegistryDataProvider::new);
+		pack.addProvider(ModModelProvider::new);
 	}
 
 	@Override

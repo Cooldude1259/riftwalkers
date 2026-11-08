@@ -18,6 +18,9 @@
 		"main": [
 			"com.cooldude1259.riftwalkers.Riftwalkers"
 		],
+		"client": [
+            "com.cooldude1259.riftwalkers.RiftwalkersClient"
+        ],
 		"fabric-datagen": [
 			"com.cooldude1259.riftwalkers.RiftwalkersDataGenerator"
 		]
