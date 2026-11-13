@@ -27,6 +27,8 @@ public class ModBlocks {
     // Reference Artwork Blocks
     public static final Block PORTAL_A = registerBlock("portal_a",
             properties -> new Block(properties.strength(3f)));
+    public static final Block BEAR_OTO = registerBlock("bear_oto",
+            properties -> new Block(properties.strength(3f)));
 
     public static ResourceKey<Block> getRK(Block block) {
         return BuiltInRegistries.BLOCK.getResourceKey(block).get();

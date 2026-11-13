@@ -18,6 +18,7 @@ public class ModCreativeModeTabs {
                     .title(Component.translatable("creativemodetab.riftwalkers.reference_blocks"))
                     .displayItems((context, output) -> {
                         output.accept(ModBlocks.PORTAL_A);
+                        output.accept(ModBlocks.BEAR_OTO);
                     }).build()
     );
 
